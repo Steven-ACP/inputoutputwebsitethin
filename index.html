@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/funstuff.css">
+
+<head>
+    <title>Custom Input/Output Thing</title>
+</head>
+
+<body>
+    <div class="middle">Your Dream Life!</div>
+
+
+    <form id="profileForm">
+        <label>Name:</label>
+        <input type="text" id="nameInput"><br><br>
+
+        <label>Age:</label>
+        <input type="number" id="ageInput"><br><br>
+
+        <label>Where you live</label>
+        <select id="colorInput">
+            <option>SELECT</option>
+            <option>Asia</option>
+            <option>Africa</option>
+            <option>North America</option>
+            <option>South America</option>
+            <option>Antarctica</option>
+            <option>Europe</option>
+            <option>Australia</option>
+
+        </select><br><br>
+
+        <label>Favorite Dream Pet:</label><br>
+        <input type="radio" name="pet" value="Dog">Dog<br>
+        <input type="radio" name="pet" value="Cat">Cat<br>
+        <input type="radio" name="pet" value="Dinosaur">Dinosaur<br><br>
+        <input type="radio" name="pet" value="Bird">Bird<br><br>
+        <input type="radio" name="pet" value="Snake">Snake<br><br>
+        <input type="radio" name="pet" value="Pig">Pig<br><br>
+
+
+        <label>Dream Job(s)</label><br>
+        <input type="checkbox" class="hobby" value="REA">Real Estate Agent<br>
+        <input type="checkbox" class="hobby" value="TA">Travel Agent<br>
+        <input type="checkbox" class="hobby" value="No">Notary<br>
+        <input type="checkbox" class="hobby" value="Pi">Pilot<br>
+        <input type="checkbox" class="hobby" value="FA">Flight Attendant<br>
+        <input type="checkbox" class="hobby" value="FF">FireFighter<br>
+        <input type="checkbox" class="hobby" value="Th">Therapist<br>
+        <input type="checkbox" class="hobby" value="Do">Doctor<br>
+        <input type="checkbox" class="hobby" value="La">Lawyer<br>
+        <input type="checkbox" class="hobby" value="FM">Film Maker<br>
+        <input type="checkbox" class="hobby" value="U">Unemployed (but rich)<br>
+
+
+        <button type="button" id="submitBtn" class="q-confirm-button">Create Profile</button>
+    </form>
+
+    <div class="middle">Your New Life!</div>
+
+    <p id="outPut"></p>
+
+
+
+    <script src="js/javascript.js"></script>
+
+</body>
+
+</html>

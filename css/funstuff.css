@@ -1,0 +1,20 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(30, 23, 100);
+}
+
+/* Layout */
+
+.middle {
+  width: 500px;
+  margin: 0 auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+}
