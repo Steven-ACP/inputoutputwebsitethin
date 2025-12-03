@@ -13,8 +13,69 @@ body {
 /* Layout */
 
 .middle {
-  width: 500px;
+  width: 90px;
   margin: 0 auto;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: xx-large;
+}
+
+.label {
+  width: 90px;
+}
+
+#nameInput {
+  width: 900px;
+}
+
+[type="checkbox"] {
+  opacity: 2;
+}
+[type="checkbox"] + input {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  display: inline-block;
+  color: #666;
+}
+
+[type="checkbox"] + input::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  outline: 2px solid #aaa;
+  background: #fff;
+}
+
+[type="checkbox"]:checked + input::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  outline: 2px solid #00a508;
+  background: #fff;
+}
+
+[type="checkbox"]:checked + input::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  background-image: url("/pictures/happyhammy.png");
+  background-size: contain;
+}
+
+[class="confirm-button"] {
+  position: absolute;
+  right: 100;
+  left: 100;
+  top: 100;
+  width: 180px;
+  height: 18px;
 }
