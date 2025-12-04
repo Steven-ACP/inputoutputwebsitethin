@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: xx-small;
+}
+
 body {
   background-color: rgb(30, 23, 100);
 }
@@ -72,10 +76,10 @@ body {
 }
 
 [class="confirm-button"] {
-  position: absolute;
-  right: 100;
-  left: 100;
-  top: 100;
-  width: 180px;
-  height: 18px;
+  width: 90px;
+  margin: 0 auto;
+}
+
+p {
+  width: 400px;
 }
